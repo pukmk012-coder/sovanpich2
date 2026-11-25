@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(202, 220, 243);
+}
+header {
+   
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+nav{
+   display: flex;
+  justify-content: flex-end; /* រុញទៅខាងស្ដាំ */
+  gap: 25px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2% 10%;
+    
+}
+ .photo1{
+    height: 180px;
+    float: left;
+    border-radius: 50%;
+    padding: 2%;
+  }
+  .H1H{
+    padding: 2%;
+  }
+.c1{
+    padding: 2%;
+}
+article {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: solid 1px;
+    mix-blend-mode: multiply;
+}
+
+table{
+    border: 2px solid;
+    width: 55px;
+    height: 30px;
+    padding: 70% 10%;
+}
+.col-p1{
+    width: 10%;
+    text-align: center;
+     mix-blend-mode: multiply;
+
+}
+.col-p2{
+    width: 10%;
+    text-align: center;
+}
+.col-p3{
+width: 10%;
+text-align: center;
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 2px solid #000;
+    height: 55px;
+    padding: 10px;
+  }
+ 
